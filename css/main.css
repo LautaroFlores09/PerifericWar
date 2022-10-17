@@ -313,15 +313,35 @@ main .formulario {
     font-size: 20px; } }
 
 @media (max-width: 470px) {
-  main .formulario .titulos-formulario .titulos-formulario__titulo {
-    font-size: 25px; }
-  main .formulario .titulos-formulario .titulos-formulario__epigrafe {
-    font-size: 15px; }
-  main .formulario .titulos-formulario .titulos-formulario__subtitulo {
-    font-size: 15px; }
-  main .formulario .formu {
-    width: 280px;
-    padding: 10px; } }
+  main .titulos .titulos__contacto {
+    font-size: 15px;
+    margin-bottom: 10px; }
+  main .titulos .titulos__contacto-subtitulo {
+    font-size: 10px;
+    margin-bottom: 5px; }
+  main .banner1 .banner__titulo {
+    font-size: 16px; }
+  main .banner1__mail {
+    font-size: 10px; }
+  main .banner1__telefono {
+    font-size: 10px; }
+  main .banner2__titulo {
+    font-size: 16px; }
+  main .banner2__mail {
+    font-size: 10px; }
+  main .banner2__telefono {
+    font-size: 10px; }
+  main .formulario {
+    padding: 0; }
+    main .formulario .titulos-formulario .titulos-formulario__titulo {
+      font-size: 25px; }
+    main .formulario .titulos-formulario .titulos-formulario__epigrafe {
+      font-size: 15px; }
+    main .formulario .titulos-formulario .titulos-formulario__subtitulo {
+      font-size: 15px; }
+    main .formulario .formu {
+      width: 280px;
+      padding: 10px; } }
 
 main .titulo {
   padding: 50px;
@@ -717,7 +737,7 @@ main .bannernosotros {
       text-decoration: underline;
       box-shadow: #8400cd 1.95px 0 0; } }
 
-@media (max-width: 470) {
+@media (max-width: 470px) {
   .tienda .categorias .desplegablenone {
     width: 300px; }
   .tienda .card {

@@ -248,7 +248,41 @@ main{
 }
 @media(max-width:470px){
      main{
+          .titulos{
+               .titulos__contacto{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+               }
+               .titulos__contacto-subtitulo{
+                    font-size: 10px;
+                    margin-bottom: 5px;
+               }  
+          }
+          .banner1{
+               .banner__titulo{
+                    font-size: 16px;
+               }
+               &__mail{
+                    font-size: 10px;
+               }
+               &__telefono{
+                    font-size: 10px;
+               }
+          }
+          .banner2{
+
+               &__titulo{
+                    font-size: 16px;
+                    }
+                    &__mail{
+                         font-size: 10px;
+                    }
+                    &__telefono{
+                         font-size: 10px;
+                    }
+               }
           .formulario{
+               padding: 0;
                .titulos-formulario{
                     .titulos-formulario__titulo{
                          font-size: 25px;
